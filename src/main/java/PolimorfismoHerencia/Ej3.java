@@ -5,9 +5,9 @@ package PolimorfismoHerencia;
 * en la programación orientada a objetos.
  */
 
-public class Main {
+public class Ej3 {
 
-    public static void main(String[] args) {
+    public static void polimorHerencia() {
         Pez pez1 = new Pez("masculino", "nonbrePez", 1, 100, 10, "agua");
         pez1.setHijos(reproducirse(1));
         Gato gato1 = new Gato("masculino", "nombreGato", 5, 0, 45, 4);

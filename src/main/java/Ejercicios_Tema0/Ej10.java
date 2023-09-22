@@ -1,8 +1,6 @@
 package Ejercicios_Tema0;
 
-import MetodosLeer.Leer;
-
-import java.util.Scanner;
+import libs.Leer;
 
 /*
 *  Escribe un algoritmo que simule una calculadora de sumas y restas.
@@ -16,9 +14,9 @@ import java.util.Scanner;
    La opción 3 hará que deje de repetirse el menú.
 */
 
-public class Calculadora {
+public class Ej10 {
 
-    public static void main(String[] args) {
+    public static void calculadora() {
         int num1, num2;
 
         boolean salir = false;

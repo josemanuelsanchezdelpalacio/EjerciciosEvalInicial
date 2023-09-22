@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-import static MetodosLeer.Leer.pedirDouble;
+import static libs.Leer.pedirDouble;
 
 /*
 * Escribe un algoritmo que pida por teclado tres números, los ordene de menor a mayor y
 * los muestre en pantalla ordenados.
 */
 
-public class OrdenarNumeros {
+public class Ej2 {
 
     static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void numerosOrdenados() {
 
         double num1, num2, num3;
 
